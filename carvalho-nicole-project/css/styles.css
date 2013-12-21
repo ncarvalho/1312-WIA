@@ -1,0 +1,138 @@
+body {
+    font: 62.5%/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #E8EAEF;
+    color: #353435; }
+
+h1{
+    font-size: 2.8em; /*28px*/
+    font-family: 'Pacifico', cursive; }
+h2{
+    font-size: 2.4em; /*24px*/
+    color: #863565; }
+h3{
+    font-size: 2em; /*20px*/
+    color: #863565; }
+p{
+    font-size: 1.6em; /*16px*/ }
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 12px 0 15px -4px lightgrey, -12px 0 15px -4px lightgrey;
+    background-color: white; }
+
+img[alt="Bulbs Logo"]{
+    height: 400px;
+    display: block;
+    margin: -5px auto; }
+
+a{
+    color: grey; }
+
+article{
+    overflow: hidden; }
+
+section {
+    margin: 0 auto;
+    width: 90%; }
+
+#barchart {
+    display: block;
+    width: 80%;
+    margin: 0 auto; }
+
+#jumbo{
+    display: block;
+    margin: 0 auto; }
+
+#Canvas1 {
+    display: block;
+    margin: 0 auto; }
+
+hr{
+    border: 3px solid #592444;
+    margin-top: -30px; }
+
+a {
+    text-decoration: none; }
+
+button {
+    margin: 5px;
+    font-family: Verdana, sans-serif;
+    font-size: 1.8em;
+    background-color: #D5E0F1;
+    padding: 5px;
+    border: 0;
+    border-radius: 5px; }
+
+
+button#showData:hover {
+    background-color: #97B1DB; }
+
+div#traditional {
+    width: 50px;
+    height: 50px;
+    background-color: #A2B37D;
+    background-image: url('../img/dollar-2.png');
+    display: inline-block;
+    border-radius: 50px;
+    background-repeat: repeat; }
+
+div#halogen {
+    width: 50px;
+    height: 50px;
+    background-color: #A2B37D;
+    background-image: url('../img/dollar-2.png');
+    display: inline-block;
+    border-radius: 50px;
+    background-repeat: repeat; }
+
+div#fluorescent {
+    width: 50px;
+    height: 50px;
+    background-color: #A2B37D;
+    background-image: url('../img/dollar-2.png');
+    display: inline-block;
+    background-repeat: repeat;
+    border-radius: 50px; }
+
+div#led {
+    width: 50px;
+    height: 50px;
+    background-color: #A2B37D;
+    background-image: url('../img/dollar-2.png');
+    display: inline-block;
+    border-radius: 50px;
+    background-repeat: repeat; }
+.tradLabel {
+    display: inline-block;
+    padding: 8px;
+    font-size: 2em;
+    vertical-align: top; }
+.halogenLabel {
+    display: inline-block;
+    padding: 8px;
+    font-size: 2em;
+    vertical-align: top; }
+.fluorLabel {
+    display: inline-block;
+    padding: 8px;
+    font-size: 2em;
+    vertical-align: top; }
+.ledLabel {
+    display: inline-block;
+    padding: 8px;
+    font-size: 2em;
+    vertical-align: top; }
+section#bulb-cost p {
+    margin-bottom: 0; }
+
+div#data-info {
+    margin-left: 25px; }
+
+#Canvas2{
+    display: block;
+    margin: 0 auto; }
+
+h2:last-of-type {
+    text-align: center; }
