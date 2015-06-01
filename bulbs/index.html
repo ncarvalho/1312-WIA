@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<!--
+    Nicole Carvalho
+-->
+
+<html lang = "en">
+  <head>
+    <meta charset = "utf-8"/>
+    <title>Bulbs Electric, Inc</title>
+    <link href="css/styles.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/coin-slider-styles.css" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/coin-slider.js"></script>
+
+  </head>
+
+  <body>
+      <div id="container">
+          <header>
+            <img src="img/bulbs-logo-trans.png" alt="Bulbs Logo" />
+
+            <canvas id="Canvas1" width="330" height="100">
+                Your browser does not support canvas.
+            </canvas><hr>
+          </header>
+
+          <article>
+              <section>
+                <!--INFORMATION-->
+                <p>Our homes are a major source of energy use in the U.S. Improving the efficiency of new and existing homes while educating consumers about their energy use will help consumers save money and increase the nation’s energy security.</p>
+
+                <p>The Energy Department supports research and development on innovative technologies that save energy and money while also working with local governments, utilities and nonprofits to provide opportunities for families to make smart, cost-effective energy upgrades to their homes. From basic information on water heaters and insulation to home energy audits and appliances, the Department’s Energy Saver website provides consumers with practical tips and advice on ways to cut their energy use.</p>
+                <p>Read more at <a href="http://energy.gov/public-services/homes">Energy.gov</a></p>
+              </section>
+
+              <section>
+                  <!--COIN SLIDER (INTERACTIVE IMAGE GALLERY)-->
+                  <h2>The better we treat our planet, the greater it will be.</h2>
+                  <button id="show-photos">View Photos</button><br>
+
+                  <div id="jumbo" style="display: none;">
+                    <a href="http://www.flickr.com/photos/28634332@N05/7637356614/" target="_blank">
+                        <img src="img/jumbo-1.jpg" alt="Jumbo 1" />
+                    </a>
+                    <a href="http://www.flickr.com/photos/95572727@N00/3410783929/" target="_blank">
+                        <img src="img/jumbo-2.jpg" alt="Jumbo 2" />
+                    </a>
+                    <a href="http://www.flickr.com/photos/28402283@N07/3186143355/" target="_blank">
+                        <img src="img/jumbo-3.jpg" alt="Jumbo 3" />
+                    </a>
+                    <a href="http://www.flickr.com/photos/62092998@N00/399948328/" target="_blank">
+                        <img src="img/jumbo-4.jpg" alt="Jumbo 4" />
+                    </a>
+                    <a href="http://www.flickr.com/photos/64898247@N00/2769866381/" target="_blank">
+                        <img src="img/jumbo-5.jpg" alt="Jumbo 5" />
+                    </a>
+                  </div>
+
+                  <!--BAR CHART (ANIMATED BAR CHART)-->
+                  <h2>See How Much Electricity Your Appliances Use In One Month</h2>
+                  <div id="barchart"></div>
+              </section>
+
+              <section id="bulb-cost">
+                <!--LIGHT BULB COST (INTERACTICE DATA VISUALIZATION)-->
+                  <h2>See How Much You Pay For Electricty To Power Your Light Bulb Per Year</h2>
+                  <button id="showData">Show Me</button>
+                  <p style="text-align:right; margin-right: 80px;"><img src="img/dollar-2.png" alt="Dollar" width="20" height="20"> equals $5.</p>
+                  <div id="data-info" style="margin-top: -40px;">
+                      <p>Traditional</p>
+                      <div id="traditional"></div>
+                      <div id="tradNumber" class="tradLabel">$34.16</div>
+                      <br>
+                      <p>Halogen</p>
+                      <div id="halogen"></div>
+                      <div id="halogenNumber" class="halogenLabel">$18.40</div>
+                      <br>
+                      <p>Compact Fluorescent</p>
+                      <div id="fluorescent"></div>
+                      <div id="fluorNumber" class="fluorLabel">$7.88</div>
+                      <br>
+                      <p>LED</p>
+                      <div id="led"></div>
+                      <div id="ledNumber" class="ledLabel">$3.88</div>
+                    </div>
+              </section>
+
+              <section>
+                  <h2>Love the Earth, Earth is Love</h2>
+
+                  <canvas id="Canvas2" width="450" height="200">
+                    Your browser does not support canvas.
+                  </canvas><br>
+               </section>
+
+          </article>
+
+          <hr><footer style="text-align:center; margin-top: 10px;">2013 Nicole Carvalho, WIA</footer>
+      </div>
+
+
+
+
+    <script type="text/javascript" src="js/googleChart.js"></script>
+    <script type="text/javascript" src="js/modernizr.js"></script>
+
+    <script>
+        $('#jumbo').coinslider({effect: 'random', width:650, height:406, delay: 6000, sDelay: 50});
+    </script>
+
+    <script src="js/jquery.1.7.1.min.js"></script>
+    <script src="js/jquery.ui.1.8.18.js"></script>
+
+    <script type="text/javascript" src="js/main.js"></script>
+
+  </body>
+
+</html>
